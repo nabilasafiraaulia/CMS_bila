@@ -1,0 +1,18 @@
+[
+  {
+    "endpoint": "https://wns2-pn1p.notify.windows.com/w/?token=BQYAAADOkLQtIqUv9U%2fRo%2bGcEa15eO3mUf3mcAl28V%2fC%2bj7vR1JacJj6KlMfAwqVfuSbHEy1i8imVjvLjSSkruqPFjSQsxvE0smtc6bWDkgPBkqXrlLWZ38Jr%2b1kyJjcjoah16KMLSbTy2J8PIyTeaFzWtsudPf2eo8oaeDFS2GvBWWe%2blEXE58Rsu7gdZX0AmRlm8i%2bexoB8v78APovxS%2b5%2fO6wLyvRfI1WsL0VbZrPr%2bQinjLD6Nc%2faXayS%2bW25jvyAqudzY1H5Zhm8c7hcjAkTjYonGvKpFVtZaOSZ2BWyg8YfM9KVIlaiVHayPsT4R1YpRE%3d",
+    "expirationTime": null,
+    "keys": {
+      "p256dh": "BND3eSfyrD67_FAyy9ctvXpvYKxNliBhrJ4wmhLUQCpPJqvBEhp3l1qD3Uj_uZ44xBfaF0X_rc1f28_pDa-Gw6A",
+      "auth": "WPxqcQBLRO_dddLx9L0Bbg"
+    }
+  },
+  {
+    "endpoint": "https://wns2-pn1p.notify.windows.com/w/?token=BQYAAAAzcHcaVw5sRgTgHdsklppK2rIvxHb66A12a1Beuykv%2bZ%2b5Q0M8CHARGpggviEgnVbx58owPEBLV9VmC63BeRxmz2%2bYV9HVbPvp29hNqby0h06tZYMEll5eNEejboPfXPwjkDoUOtjlYe7ts3PcBQaMgkDddfOVy%2baEY4Gd%2bu5khJFIzS%2buxBQzvGjI6Y3BbM67UZgtFRHz2rR%2bA5roE4WLn3Sq1w7tnJBet8ljHU9rHtb%2bGPxGL3s806hRg%2bmat2f7JDY2ok7z0ib8KE432%2bFzqFp6gYCNXCkIhxQFfjAYt1Xkv6Qg4y8%2br0r755%2fKDrsZrMjy1kXkKvqHIF5LN3yw",
+    "expirationTime": null,
+    "keys": {
+      "p256dh": "BGkZX_aDDsw6eRSnA4Ve6jrHxCW1NuXPXVDY5boLT7BQTraIuDMms_jxiePtenkWiC4j8CZgt24JmRiS6RKBAzI",
+      "auth": "54XznuTEYGAr2mpaTuPs_w"
+    }
+  }
+]

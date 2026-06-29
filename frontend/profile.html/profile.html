@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Nabila Safira</title>
+    
+    <!-- PWA Meta Tags & Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#8e6f56">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="fotonabila/icon-192.png">
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cms.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Leaflet CSS: load langsung (paling stabil agar tidak blank/unstyled) -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+    <!-- Import Map to support package imports in ES Modules natively -->
+    <script type="importmap">
+    {
+      "imports": {
+        "leaflet": "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      }
+    }
+    </script>
+
+</head>
+<body>
+
+    <!-- SPA Mount Point -->
+    <div id="app">
+        <div class="page-center-inner">
+            <div class="loader-ring"></div>
+            <p class="loader-text">Memuat halaman...</p>
+        </div>
+    </div>
+
+    <!-- Styles for global spinner loader and keyframes -->
+    <style>
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+
+    <!-- SPA ENTRY POINT MODULE -->
+    <script type="module" src="app.js"></script>
+
+</body>
+</html>

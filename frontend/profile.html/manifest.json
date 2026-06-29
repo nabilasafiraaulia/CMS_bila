@@ -1,0 +1,22 @@
+{
+  "name": "Nabila Safira Aulia Zaky - Personal Profile",
+  "short_name": "Nabila Profile",
+  "description": "Progressive Web App Portfolio of Nabila Safira Aulia Zaky",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#8e6f56",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "fotonabila/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "fotonabila/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
