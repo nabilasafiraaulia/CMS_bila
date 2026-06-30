@@ -1,0 +1,6 @@
+/* Reset index.css to prevent collision with style.css and cms.css */
+body {
+  margin: 0;
+  padding: 0;
+}
+
