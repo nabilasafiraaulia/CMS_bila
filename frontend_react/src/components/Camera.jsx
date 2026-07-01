@@ -223,8 +223,8 @@ export default function Camera({ onProfilePicChange, embedMode = false, onCaptur
         {errorMsg && <div className="camera-error-message" style={{ display: 'block', color: 'var(--color-maroon)', margin: '10px 0' }}>{errorMsg}</div>}
 
         {!previewUrl ? (
-          <div className="camera-controls-panel" style={{ marginTop: '15px' }}>
-            <div className="camera-form-row" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '15px' }}>
+          <div className="camera-controls-panel-embed">
+            <div className="camera-form-row">
               <div>
                 <label style={{ display: 'block', fontSize: '12px', color: 'var(--color-text-muted)', marginBottom: '5px' }}>Pilih Kamera</label>
                 <select 
